@@ -67,10 +67,4 @@ for num in nums:
 # ```
 
 
-nums = [5, 10, 15, 20]
-
-for index, value in enumerate(nums):
-    print(index, value)"""
-
-
-
+"""

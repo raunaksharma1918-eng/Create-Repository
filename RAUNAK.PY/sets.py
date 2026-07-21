@@ -58,15 +58,29 @@ multible.
 """
 1. Union -> sare elements between your stes.
 2. Intersection -> Dono set ke beech mai jo common values.
-3. symmetric Difference.
-4. Difference
+3. symmetric Difference. -> Common elements ko chod kar jo bach rahe wo la do.
+4. Difference ->s1 mai ho but s2 mai na ho.
 """
 
-s1 = {1,2,3,4,5}
-s2 = {1,6,7,8}
-print(s1.union(s2))
+# s1 = {1,2,3,4,5}
+# s2 = {1,6,7,8}
+# print(s1.union(s2))
 
 
-s1 = {1,2,3,4,5}
-s2 = {1,6,7,8}
-print(f"Union of set1 and set2 is {s1.union(s2)}")
+# s1 = {1,2,3,4,5}
+# s2 = {1,6,7,8}
+# print(f"Union of set1 and set2 is {s1.union(s2)}")
+# print(f"Intersection of Set1 and Set2 is {s1.intersection(s2)}")
+# print(f"DIfference of Set2 and set1 {s1.difference(s2)}")
+# print(f"Symmetric Difference between set1 and Set2 {s1.symmetric_difference(s2)}")
+
+
+
+
+l = [1,2,1,2,1,3,3,3,4,5,6,7]
+s = set()
+for i in l:
+    s.add(i)
+
+print(s)
+

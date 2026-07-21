@@ -45,17 +45,83 @@
 
 
 
-# # def multiply(a,b):
-# #     return a * b
-# # x = multiply(10 * 5)
-# # print(x-8)                                   ***********
-# # multiply()
+# def multiply(a,b):
+#     return a * b
+# x = multiply(10 * 5)
+# print(x-8)                                   #***********
+# multiply()
 
 
 
-def factotial(n):
-    fact = 1
-    for i in range(1,n+1):
-        fact *= i
-    return fact
-print(factotial(5))
+# def factotial(n):
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact *= i
+#     return fact
+# print(factotial(5))
+
+
+# def EvenOdd (a):
+#     if a%2 == 0:
+#         print('even')
+#     else:
+#         print('Odd')
+# print(EvenOdd(23))
+
+
+#Some advance function
+
+# def add(a,b,c):
+#     print(a+b+c)
+# add(10,20,30)
+
+
+# #*args -> accept argument in form of Tuples.
+
+# def add(*Raunak):
+#     print(Raunak)
+
+# add(10,20,30)
+
+
+# def add(*chacha):
+#     sum = 0
+#     for i in chacha:
+#         print(i)
+# add(10,20,30)
+
+
+
+# def add(*chacha):
+#     sum = 0
+#     for i in chacha:
+#         sum += i
+#         return sum 
+# print(add(10,20,30))
+
+
+# #**kwargs -> dictionary data accept and return 
+
+# def info(**ditials):
+#     print(ditials)
+# info(name="chacha",age="40",gender="m",address="bhopal",wife='chachi')
+
+
+# def info(**ditials):
+#     for key, value in ditials.items():
+#         print(key, value)
+# info(name="chacha",age=28,gender="m",address='bhopal')
+
+
+# """
+# Lambda
+# """
+# add = lambda a,b: a + b
+# print(add(10,20))
+
+
+# #make a lambda function which accepts 2 veriables a=2 and b=2 but give output as a^b 2^2 = 4
+
+# lambda a,b: a**b
+# print(power(2,3))
+
